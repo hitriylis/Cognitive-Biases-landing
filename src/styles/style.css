@@ -21,8 +21,8 @@
 :root {
   --font-family: "Open Sans", sans-serif;
   --second-family: "Neucha", cursive;
-
   --white: #fff;
+  --white-50: #d7ccc0;
   --translucent-white: #d7ccc0;
   --light: #f5f4f0;
   --primary: #fe8a02;
@@ -43,6 +43,7 @@ body {
   padding: 0;
 
   font-family: var(--font-family);
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -68,12 +69,12 @@ h3 {
 }
 
 .h2-nav {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 52px;
 }
 
 .h3-nav {
-  font-weight: 400;
+  font-weight: normal;
   color: var(--primary);
 }
 
@@ -126,6 +127,11 @@ h3 {
 .flex-container-row {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.flex-container-row-reverse {
+  display: flex;
+  flex-flow: row-reverse nowrap;
 }
 
 .flex-container-column {
@@ -203,7 +209,6 @@ h3 {
 .biases-text {
   font-family: var(--second-family);
   line-height: 1.2em;
-  font-weight: 400;
 }
 
 .biases-heading {
@@ -282,6 +287,10 @@ h3 {
   padding-bottom: 385px;
 }
 
+.font-weight-400 {
+  font-weight: normal;
+}
+
 .font-size-24 {
   font-size: 24px;
 }
@@ -306,6 +315,14 @@ h3 {
   color: var(--white);
 }
 
+.text-white-50 {
+  color: var(--white-50);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
 .background-primary {
   background-color: var(--primary);
 }
@@ -320,6 +337,10 @@ h3 {
 
 .background-brown {
   background-color: var(--brown);
+}
+
+.background-white {
+  background-color: var(--white);
 }
 
 .drop-shadow {
