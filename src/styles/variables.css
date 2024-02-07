@@ -1,0 +1,16 @@
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Neucha", cursive;
+  --white: #fff;
+  --white-50: #d7ccc0;
+  --translucent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --primary-dark: #42413c;
+  --primary-hover: #ea7600;
+  --dark: #2a2626;
+  --dark-50: #908d8b;
+  --translucent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}

@@ -1,4 +1,10 @@
+.github
 /node_modules/
+.editorconfig
+.gitignore
+.htmlhintrc
+.stylelintrc
 Makefile
 package-lock.json
 package.json
+README
