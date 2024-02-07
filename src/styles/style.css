@@ -84,7 +84,6 @@ h3 {
 /* Cards styles */
 .card-nav-title,
 .card-nav-link {
-  display: flex;
   flex: 1 1 350px;
   box-sizing: border-box;
 }
