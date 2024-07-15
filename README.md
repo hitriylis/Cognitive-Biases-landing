@@ -9,7 +9,7 @@ Cognitive Biases - this is a project to create a landing page that describes com
 ## Install
 
 ```bash
-git clone git@github.com:hitriylis/layout-designer-project-58
+git clone git@github.com:hitriylis/Cognitive-Biases-landing
 ```
 
 ```bash
